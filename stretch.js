@@ -7,11 +7,11 @@ let blue = "blue";
 blue = blue.toLowerCase();
 let red = "red";
 red = red.toLowerCase();
-let purple = String(blue + red);
+let purple = "blue + red";
 let orange = "red + yellow";
 let green = "yellow + blue";
 let prompt1 = String(prompt("Pick a colors or two color combinations from the color wheel: "));
-
+prompt1 = prompt1.toLowerCase();
 
 
 if(prompt1.includes('blue') && prompt1.includes('red'))
